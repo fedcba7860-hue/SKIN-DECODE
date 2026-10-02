@@ -7,7 +7,7 @@ const Database = require("better-sqlite3");
 // ---------------- DATABASE ----------------
 const dbPath = path.join(__dirname, "skin-decode.db");
 const db = new Database(dbPath);
-console.log("DATABASE:", dbPath);
+console.log("DATABASE API VERSION: 2";
 db.exec(`
   CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
